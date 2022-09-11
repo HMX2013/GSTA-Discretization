@@ -1,0 +1,22 @@
+numSims  = numel(x(:,1));
+n=1:1:numSims;
+
+figure(1);
+subplot(321);
+scatter(n,x(:,1),'pentagram','r');
+xlabel('n');ylabel('c');
+subplot(322);
+scatter(n,x(:,2),'pentagram','r');
+xlabel('n');ylabel('k1');
+subplot(323);
+scatter(n,x(:,3),'pentagram','r');
+xlabel('n');ylabel('k2');
+subplot(324);
+scatter(n,x(:,4),'pentagram','r');
+xlabel('n');ylabel('mu1');
+subplot(325);
+scatter(n,x(:,5),'pentagram','r');
+xlabel('n');ylabel('mu2');
+subplot(326);
+scatter(n,x(:,6),'pentagram','r');
+xlabel('n');ylabel('w0');
